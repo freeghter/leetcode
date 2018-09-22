@@ -38,7 +38,7 @@ class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         sort(candidates.begin(), candidates.end(), [](const int &a, const int &b)->bool{return a < b;});
-        
+
     }
 
 private:

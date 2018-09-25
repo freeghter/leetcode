@@ -141,9 +141,9 @@ int main(int argc, char * argv[]){
     for (auto &p: test_cases) {
         auto r = s.romanToInt(p.first);
         if(r == p.second)
-            cout << "ok " << "exp:" << p.second << " out:" << r << endl;
+            cout << "ok " << "000-000:" << p.second << " out:" << r << endl;
         else
-            cout << "no " << "exp:" << p.second << " out:" << r << endl;
+            cout << "no " << "000-000:" << p.second << " out:" << r << endl;
     }
 
 
